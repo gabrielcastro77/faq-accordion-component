@@ -4,7 +4,7 @@ Obrigado por conferir esse desafio.
 
 Para desenvolver esse projeto, eu atilizei as tecnologias HTML, CSS e JavaScript.
 
-## Projeto - Componente de classificação interativo
+## Projeto - Componente faq acordeão
 
 Meu desafio é construir este FAQ acordeão e fazê-lo parecer o mais próximo possível do design.
 
