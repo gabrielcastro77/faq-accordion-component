@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    background-image: url("assets/images/background-pattern-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+}
+
+#fags {
+    max-width: 320px;
+    width: 100%;
+    margin: 38% auto auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.034);
+}
+
+.box {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.box h1 {
+    margin-left: 24px;
+    color: hsl(292, 42%, 14%);
+}
+
+.box p {
+    font-weight: 700;
+    margin-right: 10px;
+    color: hsl(292, 42%, 14%);
+}
+
+.paragraph {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 22px;
+    color: hsl(292, 16%, 49%);
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+    padding-top: 22px;
+    border-top: 1px solid hsla(293, 16%, 49%, 0.185);
+    cursor: pointer;
+}
+
+.accordion:hover {
+    color: hsl(293, 68%, 46%);
+}
+
+.question {
+    font-weight: 700;
+    word-wrap: keep-all;
+}
+
+.question--alt {
+    margin-right: 15px;
+}
+
+.accordion p.question:focus {
+    color: red;
+    transition-delay: color 5s;
+}
+
+.answer {
+    display: none;
+    border: 1px solid hsla(293, 16%, 49%, 0.185);
+    padding: 10px;
+    color: hsl(293, 68%, 46%);
+}
+
+.answer-toggle {
+    display: block;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 40px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url("assets/images/background-pattern-desktop.svg");
+    }
+
+    #fags {
+        max-width: 630px;
+        margin-top: 11%;
+        padding: 40px;
+        border-radius: 18px;
+    }
+
+    .box {
+        display: flex;
+    }
+
+    .box h1 {
+        font-size: 4em;
+    } 
+
+    .box img {
+        width: 40px;
+    }
+
+    .box--alt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .paragraph {
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+
+    .question {
+        font-size: 18px;
+    }
+
+    .answer {
+        font-size: 17px;
+    }
+
+    .attribution { 
+        font-size: 15px; 
+        text-align: center; 
+        margin-top: 40px;
+    }
+}
+
